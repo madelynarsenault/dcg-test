@@ -10,3 +10,6 @@ const express = require('express');
     app.listen(port, () => {
         console.log(`Server listening on port: ${port}`);
     });
+
+
+app.get('http://cqm-sandbox.alphora.com/cqf-ruler-r4/fhir/Patient/denom-EXM104-FHIR4')
