@@ -1,6 +1,7 @@
 const express = require("express");
 const {SERVER_PORT} = process.env
 
+
 const express = require('express');
 
     const app = express();
@@ -13,3 +14,4 @@ const express = require('express');
 
 
 app.get('http://cqm-sandbox.alphora.com/cqf-ruler-r4/fhir/Patient/denom-EXM104-FHIR4')
+app.put(`http://cqm-sandbox.alphora.com/cqf-ruler-r4/fhir/Patient/denom-EXM104-FHIR4`)

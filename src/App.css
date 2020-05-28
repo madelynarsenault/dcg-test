@@ -1,3 +1,57 @@
+.patientDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left:30%;
+  border: solid;
+  border-color: red;
+  width: 40%;
+  height: 100%;
+}
+.addressDiv{
+  display: flex;
+  margin-left: 55px;
+}
+
+.address{
+  width:50%;
+  height: 20px;
+
+}
+
+.addressDiv{
+  display:flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.submitButton{
+  margin-left: 29.8%;
+  border-style: solid;
+  width: 30%;
+}
+
+.addressInput{
+  margin-top: 10px;
+  border-style: solid;
+  border-width: 1px;
+  width: 53%;
+  margin-left: 15%;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .App {
   text-align: center;
 }
@@ -6,6 +60,7 @@
   height: 40vmin;
   pointer-events: none;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

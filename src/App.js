@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
 import Patient from './Patient'
-import ReactDOM from 'react-dom';
+// import Main from './Styling/Main.sass';
 
 function App() {
   return (
     <div className="App">
       <h1>DCG Patient Test!</h1>
       <Patient />
+      {/* <Main /> */}
   
 
     </div>
