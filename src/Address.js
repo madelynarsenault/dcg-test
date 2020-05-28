@@ -42,7 +42,7 @@ class Address extends React.Component {
             "country" : this.state.country,
             "period" : {
                 "start": "2015-02-07T13:28:17",
-                "end" : "2020-02-07T13:28:17"
+                "end" : "2020-02-07T13:28:17",
             }
         }
         console.log(patient_data);
@@ -75,7 +75,5 @@ class Address extends React.Component {
         );
     }
 }
-    
-
 
 export default Address;

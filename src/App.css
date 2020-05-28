@@ -3,8 +3,6 @@
   color:rgb(83, 74, 92);
 }
 
-
-
 .patientDiv{
   display: flex;
   flex-direction: column;
@@ -52,20 +50,7 @@
   width: 39%;
   margin-left: 26%;
   border-radius: 2px;
- 
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .App {
   text-align: center;
