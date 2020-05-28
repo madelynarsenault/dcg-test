@@ -1,12 +1,20 @@
+.title{
+  font-family: 'Oxygen', sans-serif;
+}
+
+
+
 .patientDiv{
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-left:30%;
   border: solid;
-  border-color: red;
+  border-color: black;
   width: 40%;
+  border-radius: 30px;
   height: 100%;
+  font-family: 'Oxygen', sans-serif;
 }
 .addressDiv{
   display: flex;
@@ -26,17 +34,20 @@
 }
 
 .submitButton{
-  margin-left: 29.8%;
+  margin-left: 36%;
   border-style: solid;
-  width: 30%;
+  border-color:black;
+  width: 20%;
+  border-width: 1px;
+  margin-top: 30px;
 }
 
 .addressInput{
   margin-top: 10px;
   border-style: solid;
   border-width: 1px;
-  width: 53%;
-  margin-left: 15%;
+  width: 39%;
+  margin-left: 26%;
  
 }
 

@@ -6,7 +6,7 @@ import Patient from './Patient'
 function App() {
   return (
     <div className="App">
-      <h1>DCG Patient Test!</h1>
+      <h1 className="title">DCG Patient Test</h1>
       <Patient />
       {/* <Main /> */}
   
