@@ -1,5 +1,6 @@
 .title{
   font-family: 'Oxygen', sans-serif;
+  color:rgb(83, 74, 92);
 }
 
 
@@ -10,7 +11,7 @@
   justify-content: center;
   margin-left:30%;
   border: solid;
-  border-color: black;
+  border-color: rgb(103, 99, 109);
   width: 40%;
   border-radius: 30px;
   height: 100%;
@@ -40,6 +41,8 @@
   width: 20%;
   border-width: 1px;
   margin-top: 30px;
+  background-color: transparent;
+  border-radius: 5px;
 }
 
 .addressInput{
@@ -48,6 +51,7 @@
   border-width: 1px;
   width: 39%;
   margin-left: 26%;
+  border-radius: 2px;
  
 }
 
